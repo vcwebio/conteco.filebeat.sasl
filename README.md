@@ -1,6 +1,6 @@
-# `filebeat.base` - ContEco
+# `filebeat.ssl` - ContEco
 
-Filebeat Base image, with templated default configuration.
+Filebeat SSL image, with templated default configuration.
 See `conteco.docs.overview` for more information on the ContEco ecosystem.
 
 ## Configuration Changes

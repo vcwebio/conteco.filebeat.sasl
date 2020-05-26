@@ -25,7 +25,7 @@ COPY ./conteco/configs/usr/share/filebeat/filebeat.yml /usr/share/filebeat/fileb
 ENV CONTECO_REALM="vcwebio" \
     CONTECO_ECOSYSTEM="conteco" \
     CONTECO_TYPE="filebeat" \
-    CONTECO_NAME="base" \
+    CONTECO_NAME="ssl" \
     CONTECO_TAG="7.1.1" \
     CONTECO_BASE="external.filebeat:7.1.1" \
     CONTECO_BUILD="image-base"
@@ -33,11 +33,11 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.realm="vcwebio" \
       io.vcweb.ecosystem="conteco" \
       io.vcweb.type="filebeat" \
-      io.vcweb.name="base" \
+      io.vcweb.name="ssl" \
       io.vcweb.tag="7.1.1" \
       io.vcweb.base="external.filebeat:7.1.1" \
       io.vcweb.build="image-base" \
-      io.vcweb.label="filebeat.base - ContEco" \
-      io.vcweb.description="Filebeat Base image, with templated default configuration." \
-      io.vcweb.docker.cmd.help="docker run vcwebio/conteco.filebeat.base --help" 
+      io.vcweb.label="filebeat.ssl - ContEco" \
+      io.vcweb.description="Filebeat SSL image, with templated default configuration." \
+      io.vcweb.docker.cmd.help="docker run vcwebio/conteco.filebeat.ssl --help" 
 ##### END image.base/Dockerfile/env-labels-footer #####
