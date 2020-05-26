@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export CONTECO_LABEL="filebeat.base - ContEco"
+export CONTECO_DESCRIPTION="Filebeat Base image, with templated default configuration."
+
+export CONTECO_TYPE="filebeat"
+export CONTECO_NAME="base"
+export CONTECO_TAG="7.1.1"
+
+export CONTECO_BASE="external.filebeat:7.1.1"
+export CONTECO_BUILD="image-base"
