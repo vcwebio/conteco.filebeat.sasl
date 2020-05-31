@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-export CONTECO_LABEL="filebeat.ssl - ContEco"
-export CONTECO_DESCRIPTION="Filebeat SSL image, with templated default configuration."
+export CONTECO_LABEL="filebeat.sasl - ContEco"
+export CONTECO_DESCRIPTION="ContEco ElasticSearch Filebeat image, with SASL authentication."
 
 export CONTECO_TYPE="filebeat"
-export CONTECO_NAME="ssl"
+export CONTECO_NAME="sasl"
 export CONTECO_TAG="7.1.1"
 
 export CONTECO_BASE="external.filebeat:7.1.1"

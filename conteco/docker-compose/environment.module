@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # START CONFIGURATION
-export CONTECO_DC_GLOBAL_PACKAGE_CONTECO="filebeat.ssl"
+export CONTECO_DC_GLOBAL_PACKAGE_CONTECO="filebeat.sasl"
 export CONTECO_DC_GLOBAL_PACKAGE_TAG="7.1.1"
 export CONTECO_DC_GLOBAL_STACKNAMES="conteco_dc_filebeat"
 export CONTECO_DC_GLOBAL_BOOTSTACKS=""
